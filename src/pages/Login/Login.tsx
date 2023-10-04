@@ -1,6 +1,7 @@
 import BackgroundLogin from "../../components/BackgroundLogin/backgroundLogin"
 import "./styles.scss"
-import Logo from "../../../public/images/login-marca-assets-negativa-09.svg"
+import ImgLogo from "../../assets/login-marca-assets-negativa-09.svg"
+import { Input, Logo } from "../../components/components"
 
 export default function Login() {
 
@@ -10,16 +11,16 @@ export default function Login() {
                 <BackgroundLogin />
             </div>
             <div className="content-login">
-                <img src={Logo} alt="Logo" />
+                <Logo src={ImgLogo} alt="Logo" />
                 <p>l o g i n</p>
                 <div className="form">
                     <div className="input-label">
                         <label>E-mail</label>
-                        <input placeholder="Seu@e-mail.com"></input>
+                        <Input placeholder="Seu@e-mail.com" />
                     </div>
                     <div className="input-label">
                         <label>Senha</label>
-                        <input placeholder="******"></input>
+                        <Input placeholder="******" />
                     </div>
                     <button className="button-login">Entrar</button>
                     <div className="button-label">

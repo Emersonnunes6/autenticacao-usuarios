@@ -8,6 +8,11 @@
     background: var(--backgrounds-universe-background-background-blue, #030446);
     position: absolute;
     z-index: 1;
+
+    @media screen and (max-width: 450px) {
+        height: 110vh;
+        width: 100vw;
+    }
 }
 
 .ring {
@@ -16,6 +21,10 @@
     height: 253.561px;
     transform: rotate(5.536deg);
     flex-shrink: 0;
+
+    @media screen and (max-width: 450px) {
+        display: none;
+    }
 }
 
 .watermark {
@@ -23,4 +32,8 @@
     margin-bottom: 10%;
     flex-shrink: 0;
     filter: blur(20.5px);
+
+    @media screen and (max-width: 450px) {
+        display: none;
+    }
 }
