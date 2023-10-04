@@ -6,7 +6,7 @@ import { Input, Logo } from "../../components/components"
 export default function Register() {
     return (
         <>
-            <div className="view-login">
+            <div className="view-register">
                 <BackgroundLogin />
             </div>
             <div className="content-login">

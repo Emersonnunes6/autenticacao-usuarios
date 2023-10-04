@@ -30,6 +30,44 @@ export const Logo = styled.img`
     filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
 
     @media screen and (max-width: 450px) {
-        margin-top: 20%;
+        margin-top: 15%;
+    }
+`
+
+export const ButtonWhite = styled.button`
+    display: flex;
+    width: 328px;
+    padding: 17px;
+    border-radius: 30.5px;
+    background: #FFF;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    @media screen and (max-width: 450px) {
+        width: 339px;
+    }
+`
+
+export const ButtonBlue = styled.button`
+    display: flex;
+    width: 328px;
+    padding: 17px;
+    border-radius: 30.5px;
+    background: rgba(255, 255, 255, 0.10);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--grey-scale-white, #FFF);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 2%;
+
+    @media screen and (max-width: 450px) {
+        width: 339px;
+        padding: 17px;
     }
 `
