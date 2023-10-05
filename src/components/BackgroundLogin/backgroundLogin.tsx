@@ -1,10 +1,10 @@
 import "./styles.scss"
 
-export default function BackgroundLogin() {
+export default function BackgroundLogin(props: any) {
 
   return (
     <>
-      <div className='background'>
+      <div className={props.classBackground}>
         <div>
           <svg className="ring" xmlns="http://www.w3.org/2000/svg" width="208" height="207" viewBox="0 0 398 207" fill="none">
             <path d="M270.743 201.668C425.144 217.935 555.35 179.081 561.567 114.885C567.783 50.6887 447.657 -14.5401 293.257 -30.8074C138.856 -47.0748 8.65019 -8.22073 2.43333 55.9756C-3.78352 120.172 116.343 185.401 270.743 201.668Z" stroke="#E93F78" strokeWidth="2.98511" />

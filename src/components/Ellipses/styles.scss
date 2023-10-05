@@ -1,0 +1,183 @@
+.elipse-926 {
+    width: 426.316px;
+    height: 426.316px;
+    border-radius: 426.316px;
+    opacity: 0.1;
+    background: var(--galaxy-pessoal-pessoal-6-base, #38A2E8);
+    flex-shrink: 0;
+    filter: blur(27.5px);
+    z-index: 9;
+    position: absolute;
+    right: 25vw;
+
+    @media screen and (max-width: 450px) {
+        width: 258.112px;
+        height: 258.112px;
+        border-radius: 258.112px;
+        filter: blur(11.63724136352539px);
+        right: 35vw;
+    }
+}
+
+.elipse-926-2 {
+    width: 272.842px;
+    height: 272.842px;
+    border-radius: 272.842px;
+    opacity: 0.1;
+    background: var(--galaxy-posso-ajudar-posso-ajudar-6-base, #7F3CCA);
+    flex-shrink: 0;
+    filter: blur(27.5px);
+    z-index: 9;
+    position: absolute;
+    top: 60vh;
+    right: 15vw;
+
+    @media screen and (max-width: 450px) {
+        fill: var(--galaxy-posso-ajudar-posso-ajudar-6-base, #7F3CCA);
+        width: 165.191px;
+        height: 165.191px;
+        filter: blur(11.63724136352539px);
+        top: 55vh;
+    }
+}
+
+.elipse-922 {
+    width: 526.926px;
+    height: 526.926px;
+    border-radius: 526.926px;
+    border: 2px solid #FFF;
+    box-shadow: 0px 0px 20px 0px #FFF;
+    opacity: 0.07;
+    flex-shrink: 0;
+    z-index: 9;
+    position: absolute;
+
+    @media screen and (max-width: 450px) {
+        width: 319.026px;
+        height: 319.026px;
+        border-radius: 319.026px;
+        border: 0.846px solid #FFF;
+        box-shadow: 0px 0px 8.46345px 0px #FFF;
+    }
+}
+
+.elipse-923 {
+    width: 400.737px;
+    height: 400.737px;
+    border-radius: 400.737px;
+    border: 2px solid #FFF;
+    box-shadow: 0px 0px 20px 0px #FFF;
+    opacity: 0.1;
+    z-index: 9;
+    flex-shrink: 0;
+    position: absolute;
+
+    @media screen and (max-width: 450px) {
+        stroke-width: 0.846px;
+        stroke: #FFF;
+        width: 242.625px;
+        height: 242.625px;
+        filter: drop-shadow(0px 0px 8.463448524475098px #FFF);
+    }
+}
+
+.elipse-921 {
+    width: 630.947px;
+    height: 630.947px;
+    border-radius: 630.947px;
+    border: 2px solid #FFF;
+    box-shadow: 0px 0px 20px 0px #FFF;
+    opacity: 0.05;
+    flex-shrink: 0;
+    z-index: 9;
+    position: absolute;
+
+    @media screen and (max-width: 450px) {
+        width: 382.005px;
+        height: 382.005px;
+        border-radius: 382.005px;
+        border: 0.846px solid #FFF;
+        box-shadow: 0px 0px 8.46345px 0px #FFF;
+    }
+}
+
+.elipse-927 {
+    width: 426.316px;
+    height: 426.316px;
+    border-radius: 426.316px;
+    opacity: 0.1;
+    background: var(--galaxy-quero-ajuda-quero-ajuda-6-base, #E93F78);
+    flex-shrink: 0;
+    right: 10vw;
+    position: absolute;
+    z-index: 9;
+    filter: blur(27.5px);
+    bottom: 30vh;
+    right: 10vw;
+
+    @media screen and (max-width: 450px) {
+        width: 258.112px;
+        height: 258.112px;
+        border-radius: 258.112px;
+        filter: blur(11.63724136352539px);
+        left: 35vw;
+        top: 15vh;
+    }
+}
+
+.background-image {
+    width: 266.021px;
+    height: 266.021px;
+    border-radius: 266.021px;
+    background: var(--grey-scale-white, #FFF);
+    flex-shrink: 0;
+    filter: blur(0.5px);
+    position: absolute;
+
+    z-index: 9;
+
+    @media screen and (max-width: 450px) {
+        fill: var(--grey-scale-white, #FFF);
+        width: 161.062px;
+        height: 161.062px;
+        filter: blur(0.21158620715141296px);
+    }
+}
+
+.image-profile {
+    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 238.737px;
+    height: 238.737px;
+    border-radius: 266.021px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    flex-shrink: 0;
+
+    z-index: 9;
+
+    @media screen and (max-width: 450px) {
+        width: 144px;
+        height: 144px;
+        border-radius: 144px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+}
+
+.elipses {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    margin-left: 35vw;
+
+    @media screen and (max-width: 450px) {
+        height: 10vh;
+        margin-top: 40%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

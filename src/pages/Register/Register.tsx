@@ -7,7 +7,7 @@ export default function Register() {
     return (
         <>
             <div className="view-register">
-                <BackgroundLogin />
+                <BackgroundLogin classBackground={'background-register'} />
             </div>
             <div className="content-login">
                 <Logo src={ImgLogo} alt="Logo" />

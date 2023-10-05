@@ -7,7 +7,7 @@ export default function ConfirmEmail() {
     return (
         <>
             <div className="view-login">
-                <BackgroundLogin />
+                <BackgroundLogin classBackground={'background'}/>
             </div>
             <div className="content-login">
                 <Logo src={ImgLogo} alt="Logo" />
