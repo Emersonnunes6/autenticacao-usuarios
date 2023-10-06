@@ -71,3 +71,22 @@ export const ButtonBlue = styled.button`
         padding: 17px;
     }
 `
+
+export const LabelErrorMessage = styled.label`
+    height: 18.506px;
+    color: red;
+    margin-top: 5px;
+    font-family: Raleway;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+`
+
+export const PasswordViewControl = styled.img`
+    height: 15px;
+    position: relative;
+    left: 45%;
+    bottom: 43%;
+    z-index: 999;
+`

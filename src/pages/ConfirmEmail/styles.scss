@@ -9,6 +9,14 @@
     align-items: center;
     gap: 40px;
 
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 160px;
+    }
+
     input {
         z-index: 999;
         width: 481px;
@@ -31,7 +39,7 @@
         }
     }
 
-    label {
+    .label {
         height: 18.506px;
         color: var(--grey-scale-white, #FFF);
         font-family: Raleway;
@@ -133,6 +141,7 @@
     @media screen and (max-width: 450px) {
         height: 115vh;
     }
+
     position: absolute;
 }
 
