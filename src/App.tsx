@@ -1,14 +1,11 @@
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Login from './pages/Login/Login'
 import Register from './pages/Register/Register'
 import ConfirmEmail from './pages/ConfirmEmail/ConfirmEmail'
 import Profile from './pages/Profile/Profile'
-import { UserAuthContext, UserAuthContextProvider } from './contexts/userAuth'
-import { useContext } from 'react'
+import { UserAuthContextProvider } from './contexts/userAuth'
 
 function App() {
-  const { isAuthenticated } = useContext(UserAuthContext)
-  
   return (
     <>
       <UserAuthContextProvider>
@@ -25,7 +22,7 @@ function App() {
             <Route path='/confirmEmail' element={<ConfirmEmail />} />
 
           //Pagina de Perfil
-            <Route path='/profile' element={!isAuthenticated ? <Profile /> : <Navigate to='/login' />} />
+            <Route path='/profile' element={<Profile />} />
 
           </Routes>
         </BrowserRouter>

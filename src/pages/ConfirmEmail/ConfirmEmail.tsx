@@ -8,7 +8,7 @@ import { HttpRequest } from "../../utils/api"
 
 export default function ConfirmEmail() {
     const [hasError, setHasError] = useState(false);
-    const [totalTimeInSeconds, setTotalTimeInSeconds] = useState(5);
+    const [totalTimeInSeconds, setTotalTimeInSeconds] = useState(2 * 60);
     const [buttonDisabled, setButtonDisabled] = useState(true)
     const [codeEmail, setCodeEmail] = useState('')
 

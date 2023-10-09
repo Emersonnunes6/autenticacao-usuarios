@@ -10,7 +10,7 @@ interface UserAuthContextType {
 }
 
 const initialValues = {
-    isAuthenticated: false,
+    isAuthenticated: localStorage.getItem('id_token') ? true : false,
     setIsAuthenticated: () => { }
 }
 

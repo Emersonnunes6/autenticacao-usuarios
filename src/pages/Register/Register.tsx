@@ -37,7 +37,7 @@ export default function Register() {
                         localStorage.setItem('user-email', data.email)
                     }
                 }).catch((err: any) => {
-                    console.log(err)
+                    alert(err)
                 })
         } else {
             setHasError(true)
