@@ -1,4 +1,4 @@
-Projeto - Desafio Desenvolvimento Autenticacao de Usuarios
+# Projeto - Desafio Desenvolvimento Autenticacao de Usuarios
 Projeto desenvolvido com React, tem o objetivo de cadastrar, logar e permitir ao usuário visualizar o seu perfil. 
 
 Pré-requisitos
